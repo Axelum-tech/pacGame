@@ -1,0 +1,37 @@
+body{
+    background: #333;
+}
+
+.gameMap{
+    width: 500px;
+    height: 500px;
+    border:10px solid #666;
+    color: white;
+}
+
+.gameMap div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #555;
+    float: left;
+    
+}
+.gameMap #contor{
+    color: red;
+}
+
+.gameMap .pac{
+    background-image: url(img/pacman.png);
+}
+.gameMap .coin{
+    background-image: url(img/coin.png);
+}
+.gameMap .coin2{
+    background-image: url(img/coin2.png);
+}
+.gameMap .bomb{
+    background-image: url(img/Actions-edit-bomb-icon.png);
+}
+.gameMap .door{
+    background-image: url(img/door.png);
+}
